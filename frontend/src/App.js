@@ -49,15 +49,15 @@ function App() {
   };
 
   const handleCustomerId = (event) => {
+    let value = parseInt(event.target.value);
     if (value) {
-      let value = parseInt(event.target.value);
       setCustomerId(value);
     }
   };
 
   const handleNum = (event) => {
+    let value = parseInt(event.target.value);
     if (value) {
-      let value = parseInt(event.target.value);
       setNum(value);
     }
   };
