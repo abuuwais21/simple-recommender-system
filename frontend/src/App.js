@@ -38,7 +38,7 @@ function App() {
           setLoading(false);
         });
     } catch (e) {
-      console.log(e);
+      // console.log(e);
       setError(e);
     }
   };
